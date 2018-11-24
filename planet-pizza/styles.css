@@ -72,6 +72,10 @@ body {
 
 /*section-1*/
 
+
+.locations:hover {
+    opacity: .5;
+}
 .section-1 .heading-1 {
     margin-top: 8%;
 
@@ -122,6 +126,10 @@ body {
 /* section 3 */
 .section-3 {
     margin-top: 6%;
+}
+.section-3 .heading-1 {
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
 .section-3 i{
     color: #ee5e48;
