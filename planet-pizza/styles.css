@@ -33,7 +33,7 @@ body {
     background-color: #ee5e48;
 }
 .site-content {
-    background-image: url("images/bg3.png");
+    background-image: url("images/adam-smotkin-973897-unsplash.jpg");
     background-attachment: fixed;
     background-size: cover;
 
@@ -101,7 +101,7 @@ body {
 
  /*section-2*/
 .section-2 .container-fluid {
-    background-image: url("images/bg2.jpg");
+    background-image: url("images/nick-hillier-254650-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
