@@ -315,3 +315,13 @@ form {
     color: white;
     background-color: #3b5998;
 }
+form {
+    margin-top: 10%;
+}
+.price {
+    color: darkgreen;
+}
+.price:hover {
+    color: white;
+    background-color: darkgreen;
+}
