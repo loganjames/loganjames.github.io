@@ -1,0 +1,328 @@
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+.ym1 {
+    background-color: #F95F37;
+}
+.ym2 {
+    background-color: #F87D6A;
+}
+.ym3 {
+    background-color: #2E231F;
+}
+.ym4 {
+    background-color: #E4DAD9;
+}
+.ym5 {
+    background-color: #8A2722;
+}
+
+* {
+    box-sizing: border-box
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #110c08;
+}
+
+.navbar {
+    background-color: #110c08;
+}
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+    margin: 10px 40px;
+}
+.nav-link:hover {
+    color: firebrick;
+}
+.slides {
+    margin-top: 8%;
+}
+.section-1 {
+    margin-bottom: 5%;
+}
+.section-1 .heading-1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: green;
+    margin: 8% 0 3% 0;
+
+}
+.section-1 .heading-2 {
+    font-family: 'Poppins', sans-serif;
+    color: yellowgreen;
+    margin-bottom: 5%;
+    font-size: 32px;
+}
+.section-1 .para-1 {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+/*section-1*/
+
+
+.locations:hover {
+    opacity: .5;
+}
+.section-1 .card-text, .para-1 {
+    color: rgba(39,43,55,.60);
+}
+
+.card {
+    width: 20rem;
+}
+
+
+.section-2 .container-fluid {
+    min-height: 500px;
+    background-image: url("../img/paral1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-2 .heading-1 {
+    margin-top: 50%;
+    margin-bottom: 4%;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+.section-2 .para {
+    /*width: 80%;*/
+    color: white;
+    margin-bottom: 7%;
+}
+.section-2 .btn {
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+
+.section-3 {
+    margin-bottom: 8%;
+}
+.section-3 .heading-1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: green;
+    margin: 5% 0 3% 0;
+}
+.section-3 .heading-2 {
+    font-family: 'Poppins', sans-serif;
+    color: yellowgreen;
+    margin-bottom: 5%;
+    font-size: 32px;
+}
+.section-3 img {
+    margin: 10px;
+    max-width: 300px;
+}
+nav > .nav.nav-tabs{
+
+    border: none;
+    color:#fff;
+    background:#110c08;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+    border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#110c08;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+{
+    content: "";
+    position: relative;
+    bottom: -60px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: green;
+}
+.tab-content{
+    background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid green;
+    border-bottom:5px solid green;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+    border: none;
+    background: green;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+.price {
+    padding: 7%;
+}
+.card-deck {
+    margin: 2% 5%;
+}
+.section-4 .container-fluid {
+    min-height: 500px;
+    background-image: url("../img/paral2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-4 .heading-1 {
+    margin-top: 50%;
+    margin-bottom: 4%;
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+.section-4 .para {
+    /*width: 80%;*/
+    color: white;
+    margin-bottom: 7%;
+}
+.section-4 .btn {
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 5%;
+}
+footer {
+    padding-top: 2%;
+    background-color: #110c08;
+
+}
+footer img {
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 13%;
+    height: 100px;
+}
+.text-muted {
+    color: gold!important;
+
+}
+.text-muted:hover {
+    color: firebrick!important;
+}
+small {
+    margin-right: 12%;
+}
+form {
+    margin-top: 8%;
+}
+.flash {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
