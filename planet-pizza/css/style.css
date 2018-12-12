@@ -2,21 +2,6 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Josefin Sans', sans-serif;*/
 
-.ym1 {
-    background-color: #F95F37;
-}
-.ym2 {
-    background-color: #F87D6A;
-}
-.ym3 {
-    background-color: #2E231F;
-}
-.ym4 {
-    background-color: #E4DAD9;
-}
-.ym5 {
-    background-color: #8A2722;
-}
 
 * {
     box-sizing: border-box
@@ -45,7 +30,7 @@ body{
     margin-bottom: 5%;
 }
 .section-1 .heading-1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     color: green;
     margin: 8% 0 3% 0;
@@ -89,7 +74,7 @@ body{
     margin-top: 50%;
     margin-bottom: 4%;
     font-size: 60px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 .section-2 .para {
@@ -98,6 +83,8 @@ body{
     margin-bottom: 7%;
 }
 .section-2 .btn {
+    background-color: green;
+    color: white;
     margin-bottom: 15%;
     width: 30%;
     padding: 2% 5%;
@@ -107,7 +94,7 @@ body{
     margin-bottom: 8%;
 }
 .section-3 .heading-1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     color: green;
     margin: 5% 0 3% 0;
@@ -184,7 +171,7 @@ nav > div a.nav-item.nav-link:focus
     margin-top: 50%;
     margin-bottom: 4%;
     font-size: 60px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 .section-4 .para {
@@ -193,6 +180,8 @@ nav > div a.nav-item.nav-link:focus
     margin-bottom: 7%;
 }
 .section-4 .btn {
+    background-color: green;
+    color: white;
     margin-bottom: 15%;
     width: 30%;
     padding: 2% 5%;
@@ -267,7 +256,7 @@ form {
 
 .form-label-group>input,
 .form-label-group>label {
-    padding: var(--input-padding-y) var(--input-padding-x);
+    /*padding: var(--input-padding-y) var(--input-padding-x);*/
 }
 
 .form-label-group>label {
@@ -293,7 +282,7 @@ form {
     color: transparent;
 }
 
-.form-label-group input::-ms-input-placeholder {
+.form-label-group input:-ms-input-placeholder {
     color: transparent;
 }
 
@@ -306,13 +295,13 @@ form {
 }
 
 .form-label-group input:not(:placeholder-shown) {
-    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
-    padding-bottom: calc(var(--input-padding-y) / 3);
+    /*padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));*/
+    /*padding-bottom: calc(var(--input-padding-y) / 3);*/
 }
 
 .form-label-group input:not(:placeholder-shown)~label {
-    padding-top: calc(var(--input-padding-y) / 3);
-    padding-bottom: calc(var(--input-padding-y) / 3);
+    /*padding-top: calc(var(--input-padding-y) / 3);*/
+    /*padding-bottom: calc(var(--input-padding-y) / 3);*/
     font-size: 12px;
     color: #777;
 }
